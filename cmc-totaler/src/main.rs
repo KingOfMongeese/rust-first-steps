@@ -50,5 +50,9 @@ fn main() {
         }
     }
 
+    let cards_in_deck = 100; // default to cmder deck for now
+    let cmc_average = total / cards_in_deck;
+
     println!("\nTotal CMC count: {}", total);
+    println!("CMC Average: {}", cmc_average);
 }
