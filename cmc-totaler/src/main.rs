@@ -50,7 +50,7 @@ fn main() {
         }
     }
 
-    let cards_in_deck = 100.0; // default to cmder deck for now
+    let cards_in_deck = 64.0; // change as needed, TODO: add input.
     let cmc_average = total as f32 / cards_in_deck;
 
     println!("\nTotal CMC count: {}", total);
